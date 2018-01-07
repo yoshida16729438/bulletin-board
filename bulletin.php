@@ -6,7 +6,7 @@ session_start();//編集のためにデータを受け渡す必要がある
 <h1>ここにタイトルが入ります</h1>
 
 <?php 
-$filename="out2-6.txt";//出力先
+$filename="outbulletin.txt";//出力先
 $fp=fopen($filename,"a+");
 $array=file($filename);
 $numofarray=count($array);//データ行数
@@ -92,7 +92,7 @@ if (isset($_SESSION["comnum"]))$val3=$_SESSION["comnum"];
 if (isset($_SESSION["arraynum"]))$val4=$_SESSION["arraynum"];
 ?>
 
-<form action="mission_2-6.php" method="post" />
+<form action="bulletin.php" method="post" />
 <p><label>名前:<input type="text" name="name" size=10 value="<?php echo $val1; ?>" /></label> <!--名前-->
 &nbsp;&nbsp;&nbsp;
 
