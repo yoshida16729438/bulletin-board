@@ -5,3 +5,5 @@ This program can do :
 ・add new comments with your name and password
 ・edit your comments
 ・delete your commments
+
+This is one of tasks of "IESO Internship".
